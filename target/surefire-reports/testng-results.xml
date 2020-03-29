@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-19T19:45:49 CST" name="Suite" finished-at="2020-03-19T19:49:47 CST" duration-ms="238673">
+    <groups>
+    </groups>
+    <test started-at="2020-03-19T19:45:49 CST" name="Test" finished-at="2020-03-19T19:49:47 CST" duration-ms="238673">
+      <class name="E2EAcademy.expedia">
+        <test-method signature="expediaOrderDateAsc(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2EAcademy.expedia@79defdc]" started-at="2020-03-19T19:45:49 CST" name="expediaOrderDateAsc" data-provider="CitysandDays" finished-at="2020-03-19T19:47:32 CST" duration-ms="103020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Francisco, CA (SFO-San Francisco Intl.)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York, New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaOrderDateAsc -->
+        <test-method signature="expediaOrderDateDesc(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2EAcademy.expedia@79defdc]" started-at="2020-03-19T19:47:32 CST" name="expediaOrderDateDesc" data-provider="CitysandDays" finished-at="2020-03-19T19:49:47 CST" duration-ms="135623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Francisco, CA (SFO-San Francisco Intl.)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York, New York]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaOrderDateDesc -->
+      </class> <!-- E2EAcademy.expedia -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
