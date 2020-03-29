@@ -20,7 +20,7 @@ public class expedia extends base{
 	@Test(dataProvider = "CitysandDays") 
 	public void expediaOrderDateAsc(String from,String goingt, String departing, String returning) throws IOException, InterruptedException 
 	{
-		
+		System.out.println("This its a random comment in order to check the GIT-Hub Functionalities");
 		driver = initializeDriver();
 		log.info("Driver has been initialized");
 		driver.get(prop.getProperty("url"));
@@ -70,6 +70,7 @@ public class expedia extends base{
 	@Test(dataProvider = "CitysandDays") 
 	public void expediaOrderDateDesc(String from,String goingt, String departing, String returning) throws IOException, InterruptedException
 	{
+		System.out.println("This its a random comment in order to check the GIT-Hub Functionalities");
 		driver = initializeDriver();
 		log.info("Driver has been initialized");
 		driver.get(prop.getProperty("url"));
