@@ -66,6 +66,8 @@ public class expedia extends base{
 		log.info("Close Driver");
 		TD.driver.quit();
 		log.info("Quit Driver");
+		System.out.println("Im adding some other comments to thest the Merge Functionality and the "
+				+"Branching Functionality of the GIT");
 	}
 	@Test(dataProvider = "CitysandDays") 
 	public void expediaOrderDateDesc(String from,String goingt, String departing, String returning) throws IOException, InterruptedException
@@ -116,6 +118,8 @@ public class expedia extends base{
 		log.info("Close window");
 		TD.driver.quit();
 		log.info("Quit Driver");
+		System.out.println("Im adding some other comments to thest the Merge Functionality and the "
+				+"Branching Functionality of the GIT");
 	}
   
 	@DataProvider
