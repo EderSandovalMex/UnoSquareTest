@@ -6,8 +6,8 @@
     <maven.compiler.target>13</maven.compiler.target>
   </properties>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>E2EAcademy</groupId>
-  <artifactId>E2EProject</artifactId>
+  <groupId>UnoSquareTest</groupId>
+  <artifactId>unoSquareInterview</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>E2EProject</name>

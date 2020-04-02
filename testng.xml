@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <listeners>
-<listener class-name="E2EAcademy.listeners"/>
+<listener class-name="unoSquareInterview.listeners"/>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="E2EAcademy.expedia"/>
+      <class name="unoSquareInterview.expedia"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,4 +1,4 @@
-package E2EAcademy;
+package unoSquareInterview;
 
 import java.io.File;
 import java.io.IOException;

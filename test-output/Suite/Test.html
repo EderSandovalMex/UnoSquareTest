@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 25 20:34:45 CST 2020</td>
+<td>Started on:</td><td>Thu Apr 02 12:56:18 CST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>265 seconds (265456 ms)</td>
+<tr><td>Total time:</td><td>153 seconds (153975 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,48 +75,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='E2EAcademy.expedia.expediaOrderDateDesc()'><b>expediaOrderDateDesc</b><br>Test class: E2EAcademy.expedia<br>Parameters: San Francisco, CA (SFO-San Francisco Intl.), New York, New York, 25, 26</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+<td title='unoSquareInterview.expedia.expediaOrderDateAsc()'><b>expediaOrderDateAsc</b><br>Test class: unoSquareInterview.expedia<br>Parameters: San Francisco, CA (SFO-San Francisco Intl.), New York, New York, 25, 26</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//button[@id=&apos;tab-flight-tab-hp&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-PHREVUJ&apos;, ip: &apos;192.168.1.116&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Ederu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: af4b0faee9a0bd84263c3bb13f585cb7
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-	at E2EAcademy.expedia.expediaOrderDateDesc(expedia.java:114)
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at unoSquareInterview.expedia.expediaOrderDateAsc(expedia.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace951517261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace951517261'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1418102907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1418102907'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//button[@id=&apos;tab-flight-tab-hp&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-PHREVUJ&apos;, ip: &apos;192.168.1.116&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Ederu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: af4b0faee9a0bd84263c3bb13f585cb7
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-	at E2EAcademy.expedia.expediaOrderDateDesc(expedia.java:114)
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at unoSquareInterview.expedia.expediaOrderDateAsc(expedia.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -146,8 +133,8 @@ Session ID: af4b0faee9a0bd84263c3bb13f585cb7
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>157</td>
-<td>E2EAcademy.expedia@32c726ee</td></tr>
+<td>31</td>
+<td>unoSquareInterview.expedia@76f4b65</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -157,10 +144,25 @@ Session ID: af4b0faee9a0bd84263c3bb13f585cb7
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='E2EAcademy.expedia.expediaOrderDateAsc()'><b>expediaOrderDateAsc</b><br>Test class: E2EAcademy.expedia<br>Parameters: San Francisco, CA (SFO-San Francisco Intl.), New York, New York, 25, 26</td>
+<td title='unoSquareInterview.expedia.DummymethodforGit()'><b>DummymethodforGit</b><br>Test class: unoSquareInterview.expedia</td>
 <td></td>
-<td>108</td>
-<td>E2EAcademy.expedia@32c726ee</td></tr>
+<td>0</td>
+<td>unoSquareInterview.expedia@76f4b65</td></tr>
+<tr>
+<td title='unoSquareInterview.expedia.DummymethodforGit1()'><b>DummymethodforGit1</b><br>Test class: unoSquareInterview.expedia</td>
+<td></td>
+<td>0</td>
+<td>unoSquareInterview.expedia@76f4b65</td></tr>
+<tr>
+<td title='unoSquareInterview.expedia.DummymethodforGit2()'><b>DummymethodforGit2</b><br>Test class: unoSquareInterview.expedia</td>
+<td></td>
+<td>0</td>
+<td>unoSquareInterview.expedia@76f4b65</td></tr>
+<tr>
+<td title='unoSquareInterview.expedia.expediaOrderDateDesc()'><b>expediaOrderDateDesc</b><br>Test class: unoSquareInterview.expedia<br>Parameters: San Francisco, CA (SFO-San Francisco Intl.), New York, New York, 25, 26</td>
+<td></td>
+<td>122</td>
+<td>unoSquareInterview.expedia@76f4b65</td></tr>
 </table><p>
 </body>
 </html>
