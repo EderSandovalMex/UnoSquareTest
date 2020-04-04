@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 239.394 s - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.234 s <<< FAILURE! - in TestSuite
+unoSquareInterview.unoSquareTest.UnosquareTest1  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.NullPointerException
+	at unoSquareInterview.unoSquareTest.UnosquareTest1(unoSquareTest.java:21)
+
