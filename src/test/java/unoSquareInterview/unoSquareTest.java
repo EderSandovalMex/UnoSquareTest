@@ -19,6 +19,8 @@ public class unoSquareTest extends base{
 	public void UnosquareTest1() throws IOException 
 	{
 		driver = initializeDriver();
+		driver.get(prop.getProperty("url"));
+		
 		System.out.println(interviewconstants.varOneInter);
 		
 	}

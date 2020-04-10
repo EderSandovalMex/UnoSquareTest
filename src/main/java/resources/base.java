@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -27,26 +28,32 @@ public class base {
 		
 		
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\Ederu\\E2EProject\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
+		//String browserName = System.getProperty("browser");
 		String browserName = prop.getProperty("browser");
-		if (browserName.equalsIgnoreCase("chrome")) 
+		if (browserName.contains("chrome")) 
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-			driver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver\\chromedriver.exe");
+			ChromeOptions options = new ChromeOptions();
+			if (browserName.contains("headless")) 
+			{
+				options.addArguments("headless");
+			}
+			driver = new ChromeDriver(options);
 			
 		}
 		else if(browserName.equalsIgnoreCase("firefox")) 
 		{
-			System.setProperty("webdriver.gecko.driver", "C:\\GeckoDriver\\geckodriver");
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\GeckoDriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		else if(browserName.equalsIgnoreCase("IE")) 
 		{
-			System.setProperty("webdriver.ie.driver", "C:\\iedriver\\IEDriverServer_x64_3.150.1");
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\iedriver\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
-		
+	
 	
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
